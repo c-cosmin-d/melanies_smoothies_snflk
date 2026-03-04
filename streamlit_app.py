@@ -20,8 +20,8 @@ name_on_order = st.text_input('Name on smoothie:')
 st.write(f"The name on the smoothie is: {name_on_order}")
 
 pd_df = my_dataframe.to_pandas()
-st.dataframe(pd_df)
-st.stop()
+# st.dataframe(pd_df)
+# st.stop()
 
 ingredients_list = st.multiselect(
     "Choose up to five fruits:",
